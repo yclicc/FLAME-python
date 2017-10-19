@@ -11,7 +11,6 @@ from sklearn.utils import check_array
 from sklearn.metrics.pairwise import pairwise_distances
 from sklearn.preprocessing import normalize
 from math import sqrt
-from tqdm import tqdm
 
 class FLAME(BaseEstimator, ClusterMixin):
 	def __init__(self, metric="euclidean", cluster_neighbors=5, iteration_neighbors=5, max_iter=np.inf, eps=1e-10, thd=-2, verbose=0):
