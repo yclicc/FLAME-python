@@ -1,0 +1,6 @@
+.cache
+/.idea/*
+/.ipynb_checkpoints/*
+*.pyc
+*.gz
+*.png
